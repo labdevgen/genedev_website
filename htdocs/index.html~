@@ -1,0 +1,25 @@
+<head>
+<title>Minja's page at Lab Dev Gen</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+</head>
+<body>
+<font size=+1>
+	<p>Lab Tools:
+	<ul>
+	<li><a href="../cgi-bin/PrimersAligner.py">Look for specific primers in our lab primers database</a></li>
+	<li><a href="https://docs.google.com/spreadsheets/d/1sNXSlJfWXbvq2Za-4EJTFjnC6_mVOcQxFcMXcyn0Rpw/edit#gid=353932642">PCR calculator</a></li>
+	<li><a href="https://docs.google.com/spreadsheets/d/1wMCCodpIkSqeiMmQWlRkW_WChcG_rxD3Xm6eFtF2W94/edit?usp=sharing">Банк генетических конструкций</a></li>
+	<li><a href="https://docs.google.com/spreadsheets/d/1wzyA48yXOiOV4Heys6Jx84_Gg7UITXWAO5q_nnm5mfQ/edit#gid=0">Заказы лаборатории</a></li>
+	<li><a href="https://docs.google.com/spreadsheets/d/1uDfRBPQdvUEZfDQo-zosFTGjrLSJ_Hz1yWyWEvxWYCc/edit?usp=sharing">Реактивы лаборатории</a></li>
+	<li><a href="https://drive.google.com/open?id=13DwFCbj_U5_7Ytue1ESfdDV1IQW1mE5uwqGCSSs-zs4">Список ферментов</a></li>
+	<li><a href="https://docs.google.com/spreadsheets/d/1VWBNgaB2LYy9HWvUlSrZQnRR4ooP2qFbMZL11mEigzQ/edit?usp=sharing"></a></li>
+	<li><a href="journals.html">Ищешь где опубликовать статью? См. лист журналов тут</a></li>
+	</ul></p>
+<p>External resourses:
+	<ul>
+	<li><a href="http://www.ncbi.nlm.nih.gov/tools/primer-blast/index.cgi?LINK_LOC=BlastHome">NCBI Primer blast</a></li>
+	<li><a href="http://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome">NCBI Nucleotide blast</a></li>
+	</ul>
+</font></p>
+<p align="right"><font size=-1>(C) Minja Fishman, 2015</font></p>
+</body>

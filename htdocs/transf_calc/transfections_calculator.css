@@ -1,0 +1,77 @@
+table#tablePlasmids,  table#tablePlates{ 
+    /*width: 100%;  Ширина таблицы */
+    border: 2px solid black; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+   }
+table#tablePlasmids  th, table#tablePlates th { 
+/*    text-align: center; 
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+   }
+table#tablePlasmids    td , table#tablePlates td{ 
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+   }
+   
+.unvalid_plasmid {
+	background-color: red
+}
+.valid_plasmid {
+	background-color: white
+}
+
+div.mainContent{
+	width: 800px;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+	
+/*    border: 1px solid #ccc;*/
+}
+
+div.centralDiv{
+	margin: 15px auto;	
+	width : 60%;
+}
+
+table.plasmid_dilution_table {
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse; 
+}
+table.plasmid_dilution_table td{
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse; 
+	padding: 5px
+}
+
+span.ready_tube_name {
+	font-weight: bold
+}
+.cWellId{
+	font-weight: bold;
+	text-align : center
+}
+
+span.plasmid_name{
+	font-weight: bold
+}
+
+span.dna_amount_uL{
+	font-weight: bold;
+}
+
+span.important_note{
+	font-weight: bold;
+	color: red;
+}
+
+div.hidden{
+	display: none
+}

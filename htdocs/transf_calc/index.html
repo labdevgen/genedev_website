@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="expires" content="0">
+  <link rel="stylesheet" type="text/css" href="transfections_calculator.css">
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/jquery.arrayUtilities.min.js"></script>
+  <script type="text/javascript" src="js/transf_calc.js"></script>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Transfections calculator</title>
+</head>
+<body>
+<div class="mainConten">
+<div id="?hanges log" class="centralDiv">
+<h3>Changes log:</h3>
+<ul>
+	<li>2016-02-27 Internal calculation algorithm changed will use not "ratio" but "ug" (Fixed bug)</li>
+	<li>2015-11-07 Fixed bug with cm2_not_counting_plasmids_ratio</li>
+	<li>2015-11-07 Added changes log</li>	
+</ul>
+</div>
+<div id="divTransfectant" class="centralDiv">
+	Select transfectant: 
+	<select tabindex="1" id="Transfectant">
+		<option selected="selected" value="Lip3000">Lipofectamin 3000</option>
+	</select>
+	<br>
+	<img src="img/hidden.jpg" height="10" width="20" id="show_additional_params_img"></img>
+	<a id="show_additional_params" href="">Show/Hide additional parameters</a>
+		<div id="TransfectantParameters" data-transfectant="Lip3000" class="centralDiv hidden">
+			<span class="important_note">Note: 1cm2 is a <u>half</u> of 24-well</span>
+			<br>DNA amount pro cm2 (ng), default=500: <input type="text" id="DNA_pro_1cm2" value="500.0"></input><br>
+			Lipofectamin amount pro cm2 (uL), default=0.75 or 0.375: <input type="text" id="Lipofectamin_pro_cm2" value="0.75"></input><br>
+			OptiMem dilution pro cm2 (uL), default=25:  <input type="text" id="OptiMem_pro_cm2" value="25"></input><br>
+			P3000 reagent pro 1000ng of DNA: 2uL<br>
+			<a href="https://tools.lifetechnologies.com/content/sfs/manuals/lipofectamine3000_protocol.pdf">Lipofectamin manual</a><br>
+			Add new plate type:<br>
+			Name: <input type="text" id="newPlateTypeName"><br>Surface area:<input type="text" id="newPlateScalingFactor"><button id="addNewPlate">Add</button>
+		</div>
+</div>
+
+<div id="divPlasmids" class="centralDiv"> Please add plasmids:<br>
+	<table id="tablePlasmids">
+	<tr class="cPlasmidTR">
+		<td>
+			Name:
+			<input type="text" id="plasmidName1" size=15 class="cPlasmidName" value="a"/>
+		</td>
+		<td class="valid_plasmid">
+			Concentration (ng/uL):
+			<input type="text" id="plasmidConc1" size=6 class="cPlasmidConc" value="100"/>
+		</td>
+		<td>
+			<button id="plasmidAdd1" class="cPlasmidAdd">Add plasmid</button>
+		</td>
+		<td>
+			<button id="plasmidDel1" class="cPlasmidDel" disabled>Del plasmid</button>
+		</td>
+	</tr>
+	</table>
+<br>
+<!--or select from the list below:<br>
+<select disabled="disabled" multiple="multiple" name="Known plasmids">
+</select>-->
+
+<br>
+<button id="update_plasmids">Update plasmids</button>
+</div>
+
+<div id="divPlates" class="centralDiv"> 
+	Please add plates:<br>
+	<table id="tablePlates">
+	<tr>
+		<th>Well/Tube id</th>
+		<th>Well type/size</th>
+		<th>Plasmids to transfect</th>
+		<th></th>
+		<th></th>
+	</tr>
+	<tr class="cPlateTR">
+		<td class="cWellId">
+			1
+		</td>
+
+		<td>
+			<select name="Well type" id="WellType1" class="SelectWell">
+				<option value="2" selected>24 well(2cm2)</option>
+				<option value="4">12 well(4cm2)</option>
+				<option value="10">6 well(10cm2)</option>
+				<option value="25">25cm2 flasc(25cm2)</option>
+				<option value="75">75cm2 flasc(75cm2)</option>				
+				<option value="1">48 well(1cm2)</option>
+				<option value="0.5">96 well(0.5cm2)</option>				
+			</select>
+		</td>
+		<td id="Plasmids_in_well1" class="cPlasmids_in_well">
+		</td>
+		<td>
+			<button id="wellAdd1" class="cWellAdd">Add well</button>
+		</td>
+		<td>
+			<button id="wellDel1" class="cWellDel" disabled>Del well</button>
+		</td>
+	</tr>
+	</table>
+</div>
+
+<div id="Calculate" class="centralDiv">
+	<button id="calculate">Calculate transfection protocol</button>
+</div>
+
+<div id="Plasmid_dilutioin_map" class="centralDiv"></div>
+<div id="footer"> (c) Minja Fishman, 2015-2016 </div>
+</div>
+</div>
+
+</body>
+</html>

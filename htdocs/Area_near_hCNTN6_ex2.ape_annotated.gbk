@@ -1,0 +1,101 @@
+LOCUS       Area_near_hCNTN6        3000 bp    DNA              UNK 21-AUG-2014
+DEFINITION  .
+ACCESSION   Area_near_hCNTN6
+VERSION     Area_near_hCNTN6
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+COMMENT     
+            ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    1227..1303
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_fwdcolor="cyan"
+                     /label="Ex2"
+     misc_feature    1249..1251
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_fwdcolor="#ffff00"
+                     /label="New Feature"
+     misc_feature    740..759
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_fwdcolor="cyan"
+                     /label="Primer"
+     primer          1288..1307
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="yellow"
+                     /label="hCNTN6i2351"
+     primer          complement(1773..1792)
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="yellow"
+                     /label="hCNTN6i2331"
+     primer          complement(1282..1301)
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="yellow"
+                     /label="TCTGC"
+     primer          740..759
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="yellow"
+                     /label="hCNTN6i1251"
+     primer          complement(1248..1267)
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="yellow"
+                     /label="GAAAC"
+ORIGIN
+        1 cttatgaaaa tataattaat gaatgaatag atataacata tgatctaatt tatgtaaggc
+       61 attaaaggct gtggtatcaa aaggaatgga aagatgatgt cagatatgag aacatttgag
+      121 aaaaacattg actcaatacc tatgttgacc cctgaatatt gtttattttt cctgtgattt
+      181 ttatcctttg attaaatttg gaaagcattt aacttaaatt ttatttaaac gttaagtata
+      241 atcaatgttt ttggtttaag atgaagtaac tcatgacaga aagaaatgat ttttacaatt
+      301 taaaaataca tcaagaaata aaaattttat tatttattat catcacactt aaactccata
+      361 cacttccaat aaatatttaa ggttgcaaga aaatatgttt ccactatgtt aaagtttcca
+      421 aaggatctta tcacttgata tataatagtt ttatcaaatg taacctacta catctcttga
+      481 tagaaaagct gcaaaattat accataaaaa ggccatagaa ataataaagg caataatagt
+      541 ggctgttttt gtaaacaatc aaccatagtc tgttacaatc atacagttca taataactga
+      601 gcttaattgt caagattaat tgttgagctt acctacatga gttgttacag aacatggaca
+      661 tagataagtt tattctgagc ttattctaaa tttttatgag tttaggagtt tttatgaacc
+      721 tcttattaga tttctctttt gggctaaagg ccaaactaac attttatctt gatttcattt
+      781 atcactgcat agcttaaatg tcaaaataaa ttagagaaaa ttatgatgca acccccttag
+      841 gaaaagcaag tctcgtacct gaaagataac actgctagaa attgatttct tgcagaaatt
+      901 ttgcagcaca atattaattt ttctcttgtg atattaggac aaataatgtt ttctaatatt
+      961 tgaggtgtga attgaaatta agaaaatatg agctgacatt actggaactc gcagaacaaa
+     1021 tgtatgtgta gaaagcatcc atttaggttg ctttattttg gataataata ttaatattaa
+     1081 attgaattaa tatgcaacaa aaatatgctt attaaaatat tcgtgtttgt acgtttttca
+     1141 tttcatgaca attttgtctt tttcagactc ttgagatact gactggaaga tagactgttt
+     1201 tgttccacct gattgtatgg gagaaatttt tgaccttaga aagtggaaat gaggttgcta
+     1261 tggaaactgg taattctgct gccactcata aactcttctg caggtaaagt gttctattat
+     1321 tataagtttt gattgataaa tatattggca ttgtatttct ttctatgggt gaagcaattt
+     1381 tcaaaatgca caatttgtat gttatttgaa tgactaagtg ataatgtttt gaaggtaact
+     1441 tctatgactc agacagggaa agtttaatcc ttaaaaatgt atcaaatgcc agttttaaat
+     1501 ggaaactaac attattacat ttataaattg gcaaatatga catttttata caatgtaatt
+     1561 atgtaatatt taattatata atatactatg acattttaat aaaagaatgt aattaaatat
+     1621 ttttatcacc aataaacagt gaataattat tcttattttc attatagtga agtctttaaa
+     1681 aaattaaaat taaaatacat atttctctca tgtttagaaa ttgatatggc aaaaaaatca
+     1741 aagctatatt catttagaag aaaagatgat atagaatgtt acctcagaac tagaaataac
+     1801 cttagatata ttttcttttt aattatttta aaagaataga caagaacatg ttcttttatt
+     1861 caacttgaac atattaatat ctgtgtatca gttaactttt gctttgtaat aagccacgcc
+     1921 aaatgtgagt gtaataaaat atcaaataat catgtattta gttgacaaat ctgtgggtta
+     1981 acaacttacg atgggctcaa atgggtcttc ttttggtttt tgcctgggtg cactgcaact
+     2041 tcgatgagct gagtcatctg agacatgact agtctagaac attcgtaact gagacaactg
+     2101 tgctgccatg gctgtggtcc aaatgttacc ctctgtgagt ctgggttctt ttacatggtg
+     2161 gctgctcagg gttccaagaa aacaaaagac agaagaatgc agcatttctt gatgccaacg
+     2221 cttggaactg ctacattgcc atttctgtga gttattttga caattataag tcacaagaca
+     2281 agttcagctt taatagatgt ggaatgacac tacatctctt gatagaaaag ctgcaaaatt
+     2341 ataccataaa aaggccatag aaataataaa ggcaataatc gtggctgttt ttgtaaacaa
+     2401 ccaaccatag tctgttacaa tcatagagtt cataattact gagcttaatt gtcaagatta
+     2461 attgttgagc ttacctacat gagttgttac agagcatgga cattgattag atcatatgat
+     2521 tatcaaagaa gcctctcttc taccatacca tgcttcttcc ccccgactat gtgttgatag
+     2581 gtactagtga agtttcacgt acttataaca aagcagtaat acattgacag acatgcagga
+     2641 ataaacataa tttaaaaggc agaaacacag taattgtaaa ggacatatat tttatagcaa
+     2701 tcctgagaaa tagatatgct gatcttaaaa tgaatgagaa tgctaaaata tgcagaaatc
+     2761 aaacaggaga atcagaaaac catacaaata aaagcaattt taccactagc aaagctagca
+     2821 gctagaagtg ccatagttat atttactcaa agtgattaca gtattttgat tggtgacacc
+     2881 tctaagtctc tgtaacaaag atttggggtt aaataatagt gtattctttt tttggtaata
+     2941 gattaagaaa agacagagaa aactcatcaa ggtgccccca aatcatatat gtgtgaataa
+//

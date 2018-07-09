@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.arrayUtilities.min.js"></script>
+		<script language="javascript">
+			alert("a"+"b")
+			function test()
+			{
+				return [1.1,undefined]
+			}
+			a=test()
+			console.log(typeof(a[0])=='undefined')
+			console.log(typeof(a[1])=='undefined')
+			function myFunc()
+			{
+				q=new Object
+				q[1]=1
+				q[2]=2
+				for(var key in q) {
+					console.log(key)
+					console.log(typeof(key))
+					console.log(q[key])
+				}
+				console.log(q)
+				console.log(q.keys)
+			}
+		a=[2,3,4]
+		function myFunc2()
+		{
+			function t(a)
+			{
+				a.push(1)
+			}
+			
+			t(a)
+			alert(a)
+			$("input").empty()
+			alert($("input").next("span").html())
+//			$("input").remove()
+		}
+		</script>
+		
+		<style>
+			.r {color : red}
+			.b {color : blue}
+			table {  
+				border: 2px solid black; /* Рамка вокруг таблицы */
+				border-collapse: collapse; /* Отображать только одинарные линии */
+			}
+			table th, table td, table tr { 
+				border: 1px solid black; /* Граница вокруг ячеек */
+			}
+			
+		</style>
+	</head>
+	<div class="b">qweqweqw1</div>
+	<div class="r">qweqweqw2</div>
+	<div >qweqweqw3</div>
+	<input type="checkbox" /><span>wqwe</span>
+	<button onClick='console.log($("div"))'>123</button>
+	<button onClick='myFunc()'>345</button>
+	<button onClick='myFunc2()'>346</button>
+	<br>
+	<style>
+	</style>
+	<table><tr>
+		<td>aliq 2uL<br><table><tr><td>aliq 3uL</td><td>aliq 6uL</td></tr></table><td>aliq 7uL</td></tr></table>
+
+</html>
