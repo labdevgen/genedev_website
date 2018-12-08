@@ -1,6 +1,5 @@
 24	Серова	Ирина	1943	11	30	irina_serova2004@mail.ru
 25	Шнайдер	Татьяна	1991	02	23	shnayder.t@yandex.ru
-26	Tatjana_Ivanovna	Babochkina	1974	01	12	zakazserov@gmail.com
 27	Мунгалов	Роман	1996	04	03	mungalov.roman@yandex.ru
 20	Минина	Юлия	1981	09	14	minina_jul@mail.ru
 21	Жданова	Наталья	1946	09	26	zhdanova@bionet.nsc.ru
@@ -27,3 +26,5 @@
 19	Голубица	Алефтина	1938	07	01	zakazserov@gmail.com
 18	Пристяжнюк	Инна	1971	06	30	iprist@mail.ru
 19	Polina	Belokopytova	1995	05	21	belka2195@mail.ru
+20	Гладких	Ольга	Леонидовна	1982	05	16	olgapodr@yandex.ru
+26	Покровская	Анна	Викторовна	1985	09	11	zakazserov@gmail.com
